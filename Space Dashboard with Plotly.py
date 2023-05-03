@@ -115,3 +115,23 @@ def update_scatter_chart(site_dropdown, payload_range):
 # Run the app
 if __name__ == '__main__':
     app.run_server()
+
+    
+    
+    
+# 
+# 
+# Finding Insights Visually
+# Now with the dashboard completed, you should be able to use it to analyze SpaceX launch data, and answer the following questions:
+
+# 1. Which site has the largest successful launches?
+#     KSC LC-39A
+# 2. Which site has the highest launch success rate?
+#     CCAFS SLC-40
+# 3. Which payload range(s) has the highest launch success rate?
+#     3000 kg - 4000 kg
+# 4. Which payload range(s) has the lowest launch success rate?
+#     6000 kg - 9000 kg
+# 5. Which F9 Booster version (v1.0, v1.1, FT, B4, B5, etc.) has the highest launch success rate?
+#     FT
+# 
